@@ -1,0 +1,58 @@
+/* General page styling */
+body {
+  width: 95%;
+  max-width: 1100px;
+  margin: auto;
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Main content */
+.content {
+  padding: 10px;
+}
+
+/* Biography section */
+.biography {
+  margin: 10px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile image */
+.biography img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Achievements section */
+.achievements {
+  margin: 10px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: blue;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
